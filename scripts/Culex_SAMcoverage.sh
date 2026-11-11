@@ -7,7 +7,7 @@
 #SBATCH --error=BAMcoverage_%j.out
 #SBATCH --output=BAMcoverage_%j.err
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=andrea.gloria-soria@yale.edu
+#SBATCH --mail-user=justin.jang@yale.edu
 
 module load SAMtools/1.21-GCC-12.2.0
 

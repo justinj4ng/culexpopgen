@@ -5,7 +5,7 @@
 #SBATCH --time=7-00:00:00
 #SBATCH --mem=48G 
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=andrea.gloria-soria@yale.edu
+#SBATCH --mail-user=justin.jang@yale.edu
 
 
 module load Bowtie2/2.4.2-GCCcore-10.2.0 SAMtools/1.16-GCCcore-10.2.0

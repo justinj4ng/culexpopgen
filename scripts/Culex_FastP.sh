@@ -5,7 +5,7 @@
 #SBATCH --time=28-00:00:00
 #SBATCH --mem=24G 
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=andrea.gloria-soria@yale.edu
+#SBATCH --mail-user=justin.jang@yale.edu
 
 #NOTE: after long wait I broke it down in 20 indiv segments and submitted independent daily batch jobs.
 module load fastp/0.23.2-GCCcore-10.2.0

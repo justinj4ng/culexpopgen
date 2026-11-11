@@ -5,7 +5,7 @@
 #SBATCH --time=6-00:00:00
 #SBATCH --mem=12G 
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=andrea.gloria-soria@yale.edu
+#SBATCH --mail-user=justinjang@yale.edu
 
 #paths
 
