@@ -8,3 +8,6 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=justinjang@yale.edu
 
+module reset
+sample=$(sed -n "${SLURM_ARRAY_TASK_ID}p" samples.txt)
+echo "Processing ${sample}"
